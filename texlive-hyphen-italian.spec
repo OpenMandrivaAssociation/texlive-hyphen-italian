@@ -1,3 +1,9 @@
+# revision 23092
+# category TLCore
+# catalog-ctan /language/hyphenation/ithyph.tex
+# catalog-date 2009-09-29 00:01:21 +0200
+# catalog-license lgpl
+# catalog-version 4.8g
 Name:		texlive-hyphen-italian
 Version:	4.8g
 Release:	1
@@ -49,6 +55,7 @@ UNI).
 %_texmf_language_dat_d/hyphen-italian
 %_texmf_language_def_d/hyphen-italian
 %_texmf_language_lua_d/hyphen-italian
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,6 +64,8 @@ UNI).
 %build
 
 %install
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-italian <<EOF
 %% from hyphen-italian:
