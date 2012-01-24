@@ -6,7 +6,7 @@
 # catalog-version 4.8g
 Name:		texlive-hyphen-italian
 Version:	4.8g
-Release:	2
+Release:	3
 Summary:	Italian hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hyphenation/ithyph.tex
@@ -47,14 +47,16 @@ UNI).
 %install
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-italian <<EOF
-\%\% from hyphen-italian:
+\%% from hyphen-italian:
 italian loadhyph-it.tex
 EOF
+perl -pi -e 's|\\%%|%%|;' %{buildroot}%{_texmf_language_dat_d}/hyphen-italian
 mkdir -p %{buildroot}%{_texmf_language_def_d}
 cat > %{buildroot}%{_texmf_language_def_d}/hyphen-italian <<EOF
-\%\% from hyphen-italian:
+\%% from hyphen-italian:
 \addlanguage{italian}{loadhyph-it.tex}{}{2}{2}
 EOF
+perl -pi -e 's|\\%%|%%|;' %{buildroot}%{_texmf_language_def_d}/hyphen-italian
 mkdir -p %{buildroot}%{_texmf_language_lua_d}
 cat > %{buildroot}%{_texmf_language_lua_d}/hyphen-italian <<EOF
 -- from hyphen-italian:
