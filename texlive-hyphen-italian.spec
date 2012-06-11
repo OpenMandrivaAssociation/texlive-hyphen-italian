@@ -1,4 +1,4 @@
-# revision 23092
+# revision 25990
 # category TLCore
 # catalog-ctan /language/hyphenation/ithyph.tex
 # catalog-date 2009-09-29 00:01:21 +0200
@@ -6,7 +6,7 @@
 # catalog-version 4.8g
 Name:		texlive-hyphen-italian
 Version:	4.8g
-Release:	3
+Release:	4
 Summary:	Italian hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hyphenation/ithyph.tex
