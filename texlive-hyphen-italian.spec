@@ -6,7 +6,7 @@
 # catalog-version 4.8g
 Name:		texlive-hyphen-italian
 Version:	4.8g
-Release:	9
+Release:	10
 Summary:	Italian hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hyphenation/ithyph.tex
