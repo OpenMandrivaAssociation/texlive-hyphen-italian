@@ -1,12 +1,6 @@
-# revision 25990
-# category TLCore
-# catalog-ctan /language/hyphenation/ithyph.tex
-# catalog-date 2009-09-29 00:01:21 +0200
-# catalog-license lgpl
-# catalog-version 4.8g
 Name:		texlive-hyphen-italian
-Version:	4.8g
-Release:	2
+Version:	20180303
+Release:	1
 Summary:	Italian hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hyphenation/ithyph.tex
@@ -74,25 +68,3 @@ cat > %{buildroot}%{_texmf_language_lua_d}/hyphen-italian <<EOF
 		hyphenation = '',
 	},
 EOF
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.8g-4
-+ Revision: 804792
-- Update to latest release.
-
-* Tue Jan 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.8g-3
-+ Revision: 767563
-- Add workaround to rpm bug that broke hyphenation files
-
-* Wed Jan 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.8g-2
-+ Revision: 759923
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.8g-1
-+ Revision: 718665
-- texlive-hyphen-italian
-- texlive-hyphen-italian
-- texlive-hyphen-italian
-- texlive-hyphen-italian
-
