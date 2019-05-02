@@ -1,5 +1,5 @@
 Name:		texlive-hyphen-italian
-Version:	20181105
+Version:	20190406
 Release:	1
 Summary:	Italian hyphenation patterns
 Group:		Publishing
