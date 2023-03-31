@@ -1,6 +1,6 @@
 Name:		texlive-hyphen-italian
 Version:	58652
-Release:	1
+Release:	2
 Summary:	Italian hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hyphenation/ithyph.tex
