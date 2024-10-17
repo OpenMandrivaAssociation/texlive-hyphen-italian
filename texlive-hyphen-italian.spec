@@ -3,7 +3,7 @@ Version:	58652
 Release:	2
 Summary:	Italian hyphenation patterns
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/hyphenation/ithyph.tex
+URL:		https://www.ctan.org/tex-archive/language/hyphenation/ithyph.tex
 License:	LGPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphen-italian.r%{version}.tar.xz
 BuildArch:	noarch
